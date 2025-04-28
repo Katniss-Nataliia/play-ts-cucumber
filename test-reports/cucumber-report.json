@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1921029099
+              "duration": 1281643500
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3006204200
+              "duration": 2825289600
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 311209199
+              "duration": 414769899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 832943499
+              "duration": 1549634000
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 330327100
+              "duration": 92975300
             }
           },
           {
@@ -79,20 +79,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2218073900
+              "duration": 2149408999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "user search for a \"Roomies\"",
+            "name": "user search for a \"Roomies  1\"",
             "match": {
               "location": "src\\test\\steps\\addToCartSteps.ts:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 2616997699
+              "status": "failed",
+              "duration": 32070090200,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('mat-option[role=\\'option\\'] span')\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\test\\steps\\addToCartSteps.ts:11:66)\n    at step (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\test\\steps\\addToCartSteps.ts:33:23)\n    at Object.next (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\test\\steps\\addToCartSteps.ts:14:53)\n    at fulfilled (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\test\\steps\\addToCartSteps.ts:5:58)"
             }
           },
           {
@@ -104,8 +105,8 @@
               "location": "src\\test\\steps\\addToCartSteps.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 165317200
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -117,16 +118,17 @@
               "location": "src\\test\\steps\\addToCartSteps.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 2166050899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 111989900
+              "status": "failed",
+              "duration": 588743200,
+              "error_message": "Error: Invalid attachment data: must be a buffer, readable stream, or string\n    at AttachmentManager.create (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\attachment_manager\\index.ts:107:13)\n    at World.<anonymous> (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\hooks\\hooks.ts:48:20)\n    at step (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\hooks\\hooks.ts:33:23)\n    at Object.next (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\hooks\\hooks.ts:14:53)\n    at fulfilled (C:\\Users\\Nataliia.boiko\\OneDrive - Business Improvement Solutions Inc\\Desktop\\play-ts-cucumber\\src\\hooks\\hooks.ts:5:58)"
             }
           }
         ],
@@ -145,7 +147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1698923000
+              "duration": 1266537800
             }
           },
           {
@@ -158,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2870317499
+              "duration": 2927829800
             }
           },
           {
@@ -171,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 272431200
+              "duration": 402149600
             }
           },
           {
@@ -184,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1171630400
+              "duration": 2775121900
             }
           },
           {
@@ -197,7 +199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 153961700
+              "duration": 225632999
             }
           },
           {
@@ -210,7 +212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2147672599
+              "duration": 2178300000
             }
           },
           {
@@ -223,7 +225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2315441900
+              "duration": 2165830900
             }
           },
           {
@@ -236,7 +238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104798599
+              "duration": 87614000
             }
           },
           {
@@ -249,7 +251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2026041900
+              "duration": 2022779000
             }
           },
           {
@@ -257,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133983299
+              "duration": 392695199
             }
           }
         ],
@@ -276,7 +278,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 622280299
+              "duration": 439202399
             }
           },
           {
@@ -289,7 +291,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2714019299
+              "duration": 3693761600
             }
           },
           {
@@ -302,7 +304,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 313723799
+              "duration": 370371999
             }
           },
           {
@@ -315,7 +317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2225054200
+              "duration": 2204731799
             }
           },
           {
@@ -328,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 107080099
+              "duration": 98677299
             }
           },
           {
@@ -341,7 +343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2015109400
+              "duration": 2011382799
             }
           },
           {
@@ -349,7 +351,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 117003600
+              "duration": 361987399
             }
           }
         ],
@@ -379,7 +381,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 684879700
+              "duration": 783603600
             }
           },
           {
@@ -392,7 +394,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2763705500
+              "duration": 2668449700
             }
           },
           {
@@ -405,7 +407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 332121199
+              "duration": 320542399
             }
           },
           {
@@ -418,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1602283800
+              "duration": 1992154199
             }
           },
           {
@@ -431,7 +433,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 265145700
+              "duration": 82449000
             }
           },
           {
@@ -444,7 +446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2091968300
+              "duration": 2080406399
             }
           },
           {
@@ -457,7 +459,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11346600
+              "duration": 9447999
             }
           },
           {
@@ -465,7 +467,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 287348899
+              "duration": 152385599
             }
           }
         ],

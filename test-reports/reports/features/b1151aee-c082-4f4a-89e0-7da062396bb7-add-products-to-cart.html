@@ -847,7 +847,7 @@ input#darkCheck:checked ~ label > svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">66.67 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -856,7 +856,7 @@ input#darkCheck:checked ~ label > svg#moon {
                                 Failed
                             </p>
                         </td>
-                        <td class="percentage">0.00 %</td>
+                        <td class="percentage">33.33 %</td>
                     
                     
                     </tr>
@@ -999,12 +999,20 @@ input#darkCheck:checked ~ label > svg#moon {
                     
 
                     
-
+                        <li>
+                            <span class="step skipped-background" data-bs-toggle="tooltip" title="Scenario is skipped">2</span>
+                        </li>
                     
 
                     
                         <li>
-                            <span class="step passed-background" data-bs-toggle="tooltip" title="Scenario passed">8</span>
+                            <span class="step failed-background" data-bs-toggle="tooltip" title="Scenario failed">2</span>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <span class="step passed-background" data-bs-toggle="tooltip" title="Scenario passed">5</span>
                         </li>
                     
 
@@ -1346,8 +1354,8 @@ input#darkCheck:checked ~ label > svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-bs-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-bs-toggle="tooltip" data-placement="top" title="Step failed">
+                                            <i class="fa fa-exclamation-circle fa-2x failed-color"></i>
                                         </div>
                                     
                                 
@@ -1356,7 +1364,7 @@ input#darkCheck:checked ~ label > svg#moon {
                                     <span class="keyword highlight">When </span>
 
                                     
-                                        user search for a "Roomies"
+                                        user search for a "Roomies  1"
                                         
                                     
 
@@ -1367,6 +1375,8 @@ input#darkCheck:checked ~ label > svg#moon {
                                 
                                     
 
+                                    
+                                        <a href="#error0-6-error" data-bs-toggle="collapse">+ Show Error</a>
                                     
 
                                     
@@ -1384,6 +1394,17 @@ input#darkCheck:checked ~ label > svg#moon {
                             </div>
 
                         
+                            
+                                <div id="error0-6-error" class="scenario-step-collapse collapse">
+                                    <pre class=info>locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('mat-option[role=\'option\'] span')[22m
+
+    at World.(anonymous) (C:\Users\Nataliia.boiko\OneDrive - Business Improvement Solutions Inc\Desktop\play-ts-cucumber\src\test\steps\addToCartSteps.ts:11:66)
+    at step (C:\Users\Nataliia.boiko\OneDrive - Business Improvement Solutions Inc\Desktop\play-ts-cucumber\src\test\steps\addToCartSteps.ts:33:23)
+    at Object.next (C:\Users\Nataliia.boiko\OneDrive - Business Improvement Solutions Inc\Desktop\play-ts-cucumber\src\test\steps\addToCartSteps.ts:14:53)
+    at fulfilled (C:\Users\Nataliia.boiko\OneDrive - Business Improvement Solutions Inc\Desktop\play-ts-cucumber\src\test\steps\addToCartSteps.ts:5:58)</pre>
+                                </div>
                             
 
                             
@@ -1410,8 +1431,8 @@ input#darkCheck:checked ~ label > svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-bs-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-bs-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1474,8 +1495,8 @@ input#darkCheck:checked ~ label > svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-bs-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-bs-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -2531,8 +2552,8 @@ input#darkCheck:checked ~ label > svg#moon {
                     ],
                     datasets: [{
                         data: [
-                            3,
-                            0,
+                            2,
+                            1,
                             0,
                             0,
                             0,
