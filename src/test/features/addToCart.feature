@@ -4,7 +4,6 @@ Feature: Add products to cart
     Given User navigates to the application
     And User click on the login link
 
-  @add
   Scenario Outline: Authenticated Users - Add to cart
     And User enter the username as "<username>"
     And User enter the password as "<password>"
@@ -18,7 +17,6 @@ Feature: Add products to cart
       | NTest205 | Br@ve1212 | Roomies         |
       | ortonikc | pass1234  | The Simple Wild |
 
-  @fail
   Scenario: UnAuthenticated User - Add to cart
     When user search for a "All of Us with Wings"
     And user add the book to the cart
