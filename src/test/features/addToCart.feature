@@ -14,8 +14,8 @@ Feature: Add products to cart
 
     Examples:
       | username | password  | book            |
-      | NTest205 | Br@ve1212 | Roomies  1      |
-      | ortonikc | pass1234  | The Simple Wild |
+      | NTest205 | Br@ve1212 | Roomies         |
+      | ortoni11 | Pass1234  | The Simple Wild |
 
   Scenario: UnAuthenticated User - Add to cart
     When user search for a "All of Us with Wings"

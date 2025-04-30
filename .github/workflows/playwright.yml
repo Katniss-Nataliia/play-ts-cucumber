@@ -20,8 +20,8 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      if: always()
       with:
-        name: playwright-report
+        name: Report
         path: test-reports
         retention-days: 2

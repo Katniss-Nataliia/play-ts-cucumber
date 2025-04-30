@@ -1,0 +1,50 @@
+{
+    "default":{
+        "tags":"@test",
+        "formatOptions":{
+            "snippetInterface":"async-await"
+        },
+        "paths":[
+            "src/test/features/"
+        ],
+
+        "dryRun":false,
+        "require":[
+            "src/test/steps/*.ts",
+            "src/hooks/hooks.ts"
+        ],
+        "requireModule":[
+            "ts-node/register"
+        ],
+        "format":[
+            "progress-bar",
+            "html:test-reports/cucumber-report.html",
+            "json:test-reports/cucumber-report.json",
+            "rerun:@rerunFile.txt"
+            
+        ],
+        "parallel": 2
+    },
+    "rerun":{
+        "formatOptions":{
+            "snippetInterface":"async-await"
+        },
+
+        "dryRun":false,
+        "require":[
+            "src/test/steps/*.ts",
+            "src/hooks/hooks.ts"
+        ],
+        "requireModule":[
+            "ts-node/register"
+        ],
+        "format":[
+            "progress-bar",
+            "html:test-reports/cucumber-report.html",
+            "json:test-reports/cucumber-report.json",
+            "rerun:@rerunFile.txt"
+            
+        ],
+        "parallel": 2
+    }
+}
